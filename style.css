@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+h3,
+h5 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  padding-bottom: 2%;
+}
+p {
+  text-align: justify;
+  font-size: 0.9rem;
+}
+#title {
+  font-size: 1rem;
+}
+.navbar {
+  padding: 1% 12%;
+}
+.nav-item{
+    margin: auto 2%;
+}
+.nav-link {
+  font-size: 0.8rem;
+  color: #fff !important;
+}
+.active {
+background-color: #f0ad4e;
+border-radius: 5%;
+}
+.nav-link:hover{
+    background-color: #5cb85c;
+    border-radius: 5%;
+}
+.title-img {
+  width: 100%;
+}
+.title-info {
+  padding: 0% 10%;
+}
+#Services {
+  padding: 5% 10%;
+}
+.service-box {
+  padding: 3%;
+}
+.icon {
+  margin: 5% auto;
+  color: #5cb85c;
+}
+.icon:hover {
+  color: #f0ad4e;
+}
+#News {
+  padding: 5% 10%;
+}
+.card {
+  background-color: #000;
+  margin: 20% auto;
+}
+.card-header,
+.card-body {
+  border: 1px solid #f0ad4e;
+}
+#contact {
+  padding: 5% 10%;
+}
+.btn-contact {
+  margin: 0% 1% 5%;
+}
+#footer {
+  padding: 5% 10%;
+  display: inline-block;
+}
+.social-icon {
+  color: #f0ad4e;
+  margin: auto 2%;
+}
+
+@media(max-width:900px){
+    .navbar-toggler-icon{
+        font-size: 0.75rem;       
+    }
+    .active{
+        border-radius: 0%;
+    }
+    .nav-link:hover{
+        border-radius: 0%;
+    }
+}
